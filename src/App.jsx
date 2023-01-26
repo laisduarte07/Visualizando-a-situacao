@@ -1,5 +1,5 @@
 import "./App.css";
-import video from "./assets/video/video.mp4";
+import gif from "../public/Design sem nome (1).gif";
 
 function App() {
   function copiar(event) {
@@ -9,13 +9,13 @@ function App() {
     const content = details.querySelector("p");
     navigator.clipboard.writeText(content.textContent);
   }
-
   return (
     <div className="App">
       <div className="video">
-        <video src={video} autoPlay loop muted />
+        <img className="gif" src={gif} />
 
         <div className="detalhes">
+          <img src="public\nba-logo-png-33606.png" />
           <details>
             <summary>Quais os 10 Times com mais Vitórias na Temporada?</summary>
             <div>
