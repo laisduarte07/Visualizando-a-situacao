@@ -1,5 +1,5 @@
 import "./App.css";
-import gif from "../public/Design sem nome (1).gif";
+import gif from "../public/gif.gif";
 
 function App() {
   function copiar(event) {
@@ -15,7 +15,7 @@ function App() {
         <img className="gif" src={gif} />
 
         <div className="detalhes">
-          <img src="public\nba-logo-png-33606.png" />
+          <img src="../public\nbalogo.png" />
           <details>
             <summary>Quais os 10 Times com mais Vitórias na Temporada?</summary>
             <div>
