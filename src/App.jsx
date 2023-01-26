@@ -21,7 +21,7 @@ function App() {
             <summary>Quais os 10 Times com mais Vitórias na Temporada?</summary>
             <div>
               <p className="copie">
-                SELECT DISTINCT * from rankin where SEASON_ID= '22018'ORDER BY W
+                SELECT DISTINCT * from rankin where SEASON_ID= '2018'ORDER BY W
                 DESC;
               </p>
               <button className="button-cp" onClick={copiar}>
@@ -35,7 +35,7 @@ function App() {
             <div>
               <p>
                 SELECT DISTINCT HOME_RECORD, TEAM FROM rankin where SEASON_ID=
-                '22018'ORDER BY HOME_RECORD DESC;
+                '2018'ORDER BY HOME_RECORD DESC;
               </p>
               <button className="button-cp" onClick={copiar}>
                 Copiar
@@ -50,7 +50,7 @@ function App() {
             <div>
               <p>
                 SELECT DISTINCT ROAD_RECORD, TEAM FROM rankin WHERE SEASON_ID=
-                '22018'ORDER BY ROAD_RECORD DESC;
+                '2018'ORDER BY ROAD_RECORD DESC;
               </p>
               <button className="button-cp" onClick={copiar}>
                 Copiar
@@ -59,13 +59,11 @@ function App() {
           </details>
 
           <details>
-            <summary>Qual time tem mais assistência na SEASON?</summary>
+            <summary>Quais os Jogaores dos Times?</summary>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit Quibusda
-                m dicta sapiente totam libero non repellat natus, ducimus,
-                soluta veritatis inventore reprehenderit maiores maxime corrupti
-                Voluptatibus nisi explicabo ab tempore obcaecati?
+                SELECT jog.PLAYER_NAME, jog.TEAM_ID, t.NICKNAME FROM jogadores
+                jog INNER JOIN team t ON t.TEAM_ID = jog.TEAM_ID;
               </p>
               <button className="button-cp" onClick={copiar}>
                 Copiar
@@ -74,43 +72,11 @@ function App() {
           </details>
 
           <details>
-            <summary> Qual jogador tem mais assistência na SEASON?</summary>
+            <summary> Quais os Times com Maiores WINRATE?</summary>
             <div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit Quibusda
-                m dicta sapiente totam libero non repellat natus, ducimus,
-                soluta veritatis inventore reprehenderit maiores maxime corrupti
-                Voluptatibus nisi explicabo ab tempore obcaecati?
-              </p>
-              <button className="button-cp" onClick={copiar}>
-                Copiar
-              </button>
-            </div>
-          </details>
-
-          <details>
-            <summary> Qual jogador fez mais rebote na SEASON?</summary>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit Quibusda
-                m dicta sapiente totam libero non repellat natus, ducimus,
-                soluta veritatis inventore reprehenderit maiores maxime corrupti
-                Voluptatibus nisi explicabo ab tempore obcaecati?
-              </p>
-              <button className="button-cp" onClick={copiar}>
-                Copiar
-              </button>
-            </div>
-          </details>
-
-          <details>
-            <summary> Qual time fez mais rebote na SEASON?</summary>
-            <div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit Quibusda
-                m dicta sapiente totam libero non repellat natus, ducimus,
-                soluta veritatis inventore reprehenderit maiores maxime corrupti
-                Voluptatibus nisi explicabo ab tempore obcaecati?
+                SELECT DISTINCT team,W,L from rankin WHERE SEASON_ID="2018"
+                ORDER by W DESC;
               </p>
               <button className="button-cp" onClick={copiar}>
                 Copiar
