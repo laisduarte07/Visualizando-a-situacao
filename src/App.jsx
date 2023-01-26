@@ -75,8 +75,7 @@ function App() {
             <summary> Quais os Times com Maiores WINRATE?</summary>
             <div>
               <p>
-                SELECT DISTINCT team,W,L from rankin WHERE SEASON_ID="2018"
-                ORDER by W DESC;
+                SELECT DISTINCT team,W,L from rankin WHERE SEASON_ID="2018" order by W DESC;
               </p>
               <button className="button-cp" onClick={copiar}>
                 Copiar
