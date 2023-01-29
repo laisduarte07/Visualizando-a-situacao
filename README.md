@@ -61,7 +61,7 @@ junto com o comando utilizado no MySQL para o retorno das respostas.
 <br>
  
 ## Gráficos  🏀
-Modelagem dos Gráficos
+Para melhor entendimento e análise de dados é possivel fazer o download do Dashboard que está presente nos arquivos.
 ![Grafico1](https://user-images.githubusercontent.com/113525688/214934016-758348f9-e0c8-4d0f-9af8-ecbce7cca486.png)
 ![Grafico2](https://user-images.githubusercontent.com/113525688/214934079-b1ab7392-9dc5-421c-b6ec-4067db7633d2.png)
 
