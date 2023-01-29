@@ -55,13 +55,21 @@ dados selecionado
 ## Ideação/Brainstorm perguntas que podem ser respondidas pelos dados 🏀
 Baseada nas informações do Banco de Dados foi elaborada algumas perguntas para ter o retorno das consultas. <br>
 As perguntas podem ser visualizadas no link a seguir ➥ [NBA](https://visualizando-a-situacao.vercel.app/) <br>
-junto com o comando utilizado no MySQL para o retorno das respostas.
+junto com o comando utilizado no MySQL para o retorno das respostas. 
+
+
+Ao clicar no botão copiar o comando "Select" é automaticamente copiado sendo <br>
+assim é possivel colar no MySQL e ele exibirá a resposta correspondente a pergunta exibida no site. 
+
+
+## Prévia do Site
+![videonba](https://user-images.githubusercontent.com/113525688/215354768-743052df-960f-4311-a8e3-747c6dc7f9dc.gif)
 
 
 <br>
  
-## Gráficos  🏀
-Para melhor entendimento e análise de dados é possivel fazer o download do Dashboard que está presente nos arquivos.
+## Prévia dos Gráficos  🏀
+Para uma melhor visualização e análise de dados,  é possivel fazer o download do Dashboard que está presente nos arquivos.
 ![Grafico1](https://user-images.githubusercontent.com/113525688/214934016-758348f9-e0c8-4d0f-9af8-ecbce7cca486.png)
 ![Grafico2](https://user-images.githubusercontent.com/113525688/214934079-b1ab7392-9dc5-421c-b6ec-4067db7633d2.png)
 
