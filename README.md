@@ -62,7 +62,7 @@ Ao clicar no botão copiar o comando "Select" é automaticamente copiado sendo <
 assim é possivel colar no MySQL e ele exibirá a resposta correspondente a pergunta exibida no site. 
 
 
-## Prévia do Site
+## Prévia do Site 🏀
 ![videonba](https://user-images.githubusercontent.com/113525688/215354768-743052df-960f-4311-a8e3-747c6dc7f9dc.gif)
 
 
